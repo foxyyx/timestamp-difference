@@ -1,3 +1,6 @@
+
+local math_floor = math.floor
+
 function getTimeFormat(t)
     if (not t) then return error ('Error in argument #1. Set the timestamp') end
     local seconds, minutes, hours, days, months, years = math_floor (t / 1000), math_floor (t / 60000), math_floor (t / 3600000), math_floor (t / 86400000), math_floor (t / 2628000000), math_floor (t / 31540000000)
