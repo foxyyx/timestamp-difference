@@ -6,5 +6,4 @@ A simple system to get the difference between two timestamps and convert them in
    -- // Args: Timestamp - getTimeDifference  (timestamp)
    getTimeDifference  (1687649287) -- Difference between two timestamps
    -- Return: Converted Difference Time, The difference in milliseconds
-   
 ```
