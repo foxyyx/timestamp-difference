@@ -10,6 +10,8 @@ A simple system to get the difference between two timestamps (current and declar
 
 ### Example
 ```lua
+local time
+
 addCommandHandler ('mdelay', function ()
     if (not time) then time = os.time () end
     iprint ('O comando foi executado a ultima vez em '..getTimeDifference (time)..' atras.')
