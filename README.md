@@ -15,5 +15,5 @@ addCommandHandler ('mdelay', function ()
     iprint ('O comando foi executado a ultima vez em '..getTimeDifference (time)..' atras.')
     time = os.time ()
 end)
+   -- // Return: https://cdn.discordapp.com/attachments/1024453207327510630/1122561191634534430/image.png
 ```
-https://cdn.discordapp.com/attachments/1024453207327510630/1122561191634534430/image.png
