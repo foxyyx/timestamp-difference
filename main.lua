@@ -9,7 +9,6 @@ end
 
 function getTimeDifference (time)
     if (not time) then return error ('Error in argument #1. Set the timestamp') end
-    local time = getRealTime (time).timestamp
     local difference = math.abs (os.difftime (os.time (), time)/0.001)
     return getTimeFormat (difference), difference
 end
